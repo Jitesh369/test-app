@@ -1,0 +1,10 @@
+.body {
+    background-color: #faf9f3;
+    align-items: center;
+}
+
+.posts-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

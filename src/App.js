@@ -1,25 +1,37 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import Posts from "./components/Posts/Posts";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Internship from './pages/Internship';
+import Collapsible from './pages/InternshipCollapse';
+import MyButton from "./components/MyButton";
+import Ambassador from './pages/Ambassador';
+import Vaani from './pages/Vaani';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+const App = () => {
+	return (
+		<div className="app">
+			<h1 className="main-heading" style={{color: "tomato"}}>
+				&emsp;Student Programmes
+			</h1>
+
+			<Posts />
+			
+            <Router>
+                <MyButton to="internship" />
+                <MyButton to="ambassador" />
+                <MyButton to="vaani" />
+                <Routes>
+                    <Route path="/internship" 
+                        element={<><Internship /><Collapsible /></>} />
+                    <Route path="/ambassador" 
+						element={<Ambassador />} />
+                    <Route path="/vaani" 
+                        element={<Vaani />} />
+                </Routes>
+            </Router>
+        </div>
+	);
+};
 
 export default App;

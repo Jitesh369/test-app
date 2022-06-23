@@ -1,0 +1,3 @@
+react-collapsed
+@material-ui/core
+npm install react-pdf
