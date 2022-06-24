@@ -11,6 +11,7 @@ function Collapsible() {
         <h3>{isExpanded ? "INTERNSHIP BROCHURE" : "INTERNSHIP BROCHURE"}</h3>
       </div>
       <br />
+      <br/>
       <div {...getCollapseProps()}>
         <div className="content">
           <p>
