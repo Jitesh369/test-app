@@ -5,7 +5,7 @@ const Internship = () => {
     <div className="internship">
       <div id="comp-kpfaw7sg" class="_2Hij5" data-testid="richTextElement">
         <div className="element0">
-          <h2 class="font_5">WINTER INTERNSHIP ANNOUNCEMENT</h2>
+          <h2 class="font_5">INTERNSHIP ANNOUNCEMENT</h2>
         </div>
       </div>
       <div id="comp-kpflgr5m" class="para" data-testid="richTextElement">
@@ -94,7 +94,7 @@ const Internship = () => {
       <div id="comp-kvwe0egz" class="_2Hij5" data-testid="richTextElement">
         <p class="font_2">
           <span class="color_14">Online</span>&nbsp;or&nbsp;
-          <span class="color_14">Offline</span>; depends on student's will
+          <span class="color_14">Offline</span>, depends on student's will
         </p>
       </div>
       <div class="verticalLine"></div>
@@ -116,37 +116,6 @@ const Internship = () => {
         </p>
       </div>
       <div id="comp-kvwe1a8l" class="_2Hij5" data-testid="richTextElement">
-        <div class="verticalLine1"></div>
-        <br/>
-        <p class="font_2">
-          As a follow-up to the application, our team will be visiting to the
-          campus and invite the applicants for interview. The interview will
-          include two elements:
-          <br />
-          <br />
-          <div className="element2">Element 1</div>
-          <br />
-          We will ask you to prepare a 7-8 minute presentation in which you
-          address 3 things:
-          <br />
-          1. Your CV
-          <br />
-          2. Your Passion for applied position
-          <br />
-          3. General skills, your attitude to teamwork, feeling regarding
-          interdisciplinary activities
-          <br />
-          <br />
-          <div className="element2">Element 2</div>
-          <br />
-          This will be followed by a conversation with members of our
-          organization. The applicant will be expected to explain what his
-          contribution might be to the advertised position. The entire interview
-          is scheduled to take around 12 minutes.
-          <br />
-          <br />
-          <div class="verticalLine1"></div>
-          <br />
           Applications can be applied through e-mail or the link given below
           <br />
           <br />
@@ -158,8 +127,8 @@ const Internship = () => {
           <br />
           <div class="verticalLine1"></div>
           <br />
-          Duration Of The Internship: <b>4 Weeks</b>
-        </p>
+          Duration Of The Internship: <b>6 - 8 Weeks</b>
+        <br/>
         <br/>
         <div class="verticalLine1"></div>
       </div>

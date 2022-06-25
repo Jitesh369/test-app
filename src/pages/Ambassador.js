@@ -33,7 +33,7 @@ const Ambassador = () => {
             experience on your resume, which is a value-added.
             <br />
             <br />
-            <div className="element1">
+            <div className="element1a">
               <h3>
                 How does the Campus Ambassador Program differ from an
                 Internship?
@@ -62,7 +62,7 @@ const Ambassador = () => {
       <br />
       <div id="comp-kpnreudk" class="_classe" data-testid="richTextElement">
         <p class="font_5">
-          <div className="element1">
+          <div className="element1a">
             <h3>Why Should You Apply?</h3>
           </div>
           <br />
@@ -94,7 +94,7 @@ const Ambassador = () => {
       <br />
       <div id="comp-kpnryqp5" class="_classe" data-testid="richTextElement">
         <p class="font_5">
-          <div className="element1">
+          <div className="element1a">
             <h3>Perks</h3>
           </div>
           <br />
@@ -122,7 +122,7 @@ const Ambassador = () => {
       <br />
       <div id="comp-kpnvottm" class="_classe" data-testid="richTextElement">
         <p class="font_5">
-          <div className="element1">
+          <div className="element1a">
             <h3>Eligibility</h3>
           </div>
           <br />
@@ -142,7 +142,7 @@ const Ambassador = () => {
       <br />
       <div id="comp-kpnvxpv7" class="_classe" data-testid="richTextElement">
         <p class="font_5">
-          <div className="element1">
+          <div className="element1a">
             <h3>Roles & Responsibilities</h3>
           </div>
           <br />
@@ -169,7 +169,7 @@ const Ambassador = () => {
         </p>
       </div>
       <br />
-      <div className="verticalLine1"></div>
+      <div className="verticalLine1a"></div>
       <br/>
       <div id="comp-kpnw61du" class="_classe" data-testid="richTextElement">
         <p class="font_5">
@@ -177,7 +177,7 @@ const Ambassador = () => {
         </p>
       </div>
       <br/>
-      <div className="verticalLine1"></div>
+      <div className="verticalLine1a"></div>
       <br />
       <div className="btn">
         <a href="https://docs.google.com/forms/d/e/1FAIpQLSezu555aTApyA-HM6fU27_9_8M6Rx8GZAwAXP-ZU6JVs8_qVQ/viewform?usp=sf_link">
@@ -185,7 +185,7 @@ const Ambassador = () => {
         </a>
       </div>
       <br />
-      <div className="verticalLine1"></div>
+      <div className="verticalLine1a"></div>
     </div>
   );
 }

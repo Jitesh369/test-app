@@ -1,3 +1,4 @@
+import './MyButton.css'
 import { Link } from "react-router-dom";
 
 const MyButton = ({ to }) => {
